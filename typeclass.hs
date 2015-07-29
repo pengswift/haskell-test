@@ -89,3 +89,4 @@ yesnoIf yesnoVal yesResult noResult =
     fmap (*4) (foldr treeInsert Empty [5,7,3,2,,1,7])
 --}
 
+data Frank a b = Frank {frankField :: b a} deriving (Show)
